@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Đăng ký"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/ed_name_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Đăng Ký"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_pass_reg"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Mật khẩu"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_repass_reg"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btn_save_reg"
+        android:layout_gravity="center"
+        android:text="Đăng ký"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
